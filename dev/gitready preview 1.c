@@ -58,8 +58,8 @@ int main() {
 
 
 char sure[2];
-printf("Do you wish to proceed with the process ? y/n");
-scanf("%is", &sure);
+printf("Do you wish to proceed with the process ? y/n\n");
+scanf("%2s", &sure);
 if (strcasecmp(sure, "y") == 0) {
 printf("good luck then");
 printf("you have 10 sec to regret use control + c (^c)");
