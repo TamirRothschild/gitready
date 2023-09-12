@@ -59,10 +59,11 @@ int main() {
 
 char sure[2];
 printf("Do you wish to proceed with the process ? y/n\n");
+printf("good luck then\n");
+printf("you have 10 sec to regret use control + c (^c)\n");
+sleep(10);
 scanf("%2s", &sure);
 if (strcasecmp(sure, "y") == 0) {
-printf("good luck then");
-printf("you have 10 sec to regret use control + c (^c)");
 sleep(10);
 
 //from here its the real install process
