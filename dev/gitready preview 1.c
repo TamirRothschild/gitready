@@ -72,7 +72,7 @@ sleep(10);
 if (system_ver == 1){
    printf("archlinux install");
 //display server 
-  if (display_server == 1){   int returnCode = system("sudo pacman -S xorg-server");}
+  if (display_server == 1){   int returnCode = system("sudo pacman -S xorg-server xorg-xinit");}
   if (display_server == 2){   int returnCode = system("sudo pacman -S wayland");}
 //desktop
   if (desktop == 1){   int returnCode = system("sudo pacman -S gnome");}
