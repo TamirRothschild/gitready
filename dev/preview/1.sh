@@ -3,8 +3,8 @@
 echo "Choose System :"
 echo "1. Archlinux"
 echo "2. Debian"
-echo "3. Option C"
-echo "4. Option D"
+# echo "3. Option C"
+# echo "4. Option D"
 
 read -p "Enter your choice: " system_ver
 
