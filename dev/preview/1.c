@@ -7,8 +7,8 @@ int main() {
  printf("Choose System :\n");
     printf("1. Archlinux\n");
     printf("2. Debian\n");
-    printf("3. Option C\n");
-    printf("4. Option D\n");
+  //  printf("3. Option C\n");
+  //  printf("4. Option D\n");
 
     int system_ver;
     scanf("%d", &system_ver);
