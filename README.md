@@ -1,7 +1,7 @@
-## gitready
+# gitready
 the worst way to install your system
 
-# To Do List
+## To Do List
 
 - [x] archlinux support
 - [x] debian support
