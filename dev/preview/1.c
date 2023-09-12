@@ -82,7 +82,19 @@ if (system_ver == 1){
 //display manager graphical
   if (display_manager_graphical == 1){   int returnCode = system("sudo pacman -S gdm");}
   if (display_manager_graphical == 2){   int returnCode = system("sudo pacman -S sddm");}
-  if (display_manager_graphical == 3){   int returnCode = system("sudo pacman -S lightdm lightdm-gtk-greeter");int returnCode = system("sudo systemctl enable lightdm");int returnCode = system("sudo systemctl start lightdm");}
+  if (display_manager_graphical == 3) {
+    int returnCode;
+
+    // Install LightDM and its dependencies
+    returnCode = system("sudo pacman -S lightdm lightdm-gtk-greeter");
+
+    if (returnCode == 0) {
+        // Enable LightDM service
+        returnCode = system("sudo systemctl enable lightdm");
+
+        if (returnCode == 0) {
+            // Start LightDM service
+            returnCode = system("sudo systemctl start lightdm");
   if (display_manager_graphical == 4){   int returnCode = system("sudo pacman -S lxdm");}
  }
 //[Debian]
