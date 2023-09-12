@@ -15,3 +15,5 @@ the worst way to install your system
 - [x] SDDM
 - [x] LightDM
 - [x] LXDM
+- [ ] add more systems support
+- [ ] add more software support
