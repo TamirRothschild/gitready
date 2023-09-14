@@ -18,5 +18,5 @@ The Worst Way To install Your System (The author, 2023)
 - [x] SDDM
 - [x] LightDM
 - [x] LXDM
-- [ ] add alpine support
+- [ ] add alpine linux support wiki.alpinelinux.org
 - [ ] add more software support
