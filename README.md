@@ -1,7 +1,8 @@
 # GitReady 🚀
 ### The Worst Way To install Your System (The author, 2023)
 
-<img src="https://github.com/TamirRothschild/gitready/blob/main/the%20cat%20photo1.1.jpeg" alt="its a cat with a rocket and stuff " width="250" height="250"/>
+<img src="https://github.com/TamirRothschild/gitready/assets/81330776/aadbc677-266b-4f8b-8a51-a8607754bbb4" alt="its a cat with a rocket and stuff " width="250" height="250"/>
+<!--![cat photo gitready](https://github.com/TamirRothschild/gitready/assets/81330776/aadbc677-266b-4f8b-8a51-a8607754bbb4)-->
 
 <!--Welcome to GitReady! Buckle up for a thrilling adventure in system installation like never before. GitReady is here to revolutionize the way you set up your system, making it fast, minimal, and secure.-->
 ## Features ✨
