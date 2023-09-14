@@ -25,7 +25,7 @@ cd gitready/dev/preview # WHILE IN DEV
 ###### Terminal:
 ```bash
 git clone https://github.com/TamirRothschild/gitready
-cd 'gitready/dev/preview' [WHILE IN DEV]
+cd gitready/dev/preview # WHILE IN DEV
 gcc -o gitready2m 2.c
 ./gitready2m
 ```
