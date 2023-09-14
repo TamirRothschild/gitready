@@ -32,7 +32,7 @@ gcc -o gitready2m 2.c
 ## To Do List 📝
 
 - [x] archlinux support
-- [x] debian support
+- [X] debian support (NOT TESTED)
 - [x] gnome 
 - [x] plasma 
 - [x] LXDE 
@@ -45,3 +45,5 @@ gcc -o gitready2m 2.c
 - [x] LXDM
 - [ ] add alpine linux support <a href="wiki.alpinelinux.org">alpinelinux wiki</a>
 - [ ] add more software support
+- [ ] Test sheel
+- [ ] Test Debian
