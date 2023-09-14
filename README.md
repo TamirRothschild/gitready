@@ -11,7 +11,7 @@
 - 🔒 Secure
 - 🎨 Customizable
 - 🐧 Optimized for Linux
-- ⚙️ Available in C and Shell  
+- ⚙️ Written in C and Shell  
 - 🌟 Open Source
 - 🆓 Free Forever
 
