@@ -29,7 +29,7 @@ cd gitready/dev/preview # WHILE IN DEV
 gcc -o gitready2m 2.c
 ./gitready2m
 ```
-## To Do List
+## To Do List 📝
 
 - [x] archlinux support
 - [x] debian support
