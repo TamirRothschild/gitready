@@ -3,8 +3,7 @@
 
 <img src="https://github.com/TamirRothschild/gitready/blob/main/the%20cat%20photo1.1.jpeg" alt="its a cat with a rocket and stuff " width="250" height="250"/>
 
-Welcome to GitReady! Buckle up for a thrilling adventure in system installation like never before. GitReady is here to revolutionize the way you set up your system, making it fast, minimal, and secure.
-
+<!--Welcome to GitReady! Buckle up for a thrilling adventure in system installation like never before. GitReady is here to revolutionize the way you set up your system, making it fast, minimal, and secure.-->
 ## Features ✨
 - ⚡ Fast
 - 📦 Minimal
