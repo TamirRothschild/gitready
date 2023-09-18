@@ -22,7 +22,7 @@ git clone https://github.com/TamirRothschild/gitready
 cd gitready/dev/preview # WHILE IN DEV
 ./gitready2p
 ```
-## How to Use 🚀 [WORK IN PROGRESS]
+## How to Use 🚀 [NOT RECOMMENDED]
 ###### GUI:
 ```bash
 git clone https://github.com/TamirRothschild/gitready
