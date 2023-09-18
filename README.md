@@ -22,14 +22,15 @@ git clone https://github.com/TamirRothschild/gitready
 cd gitready/dev/preview # WHILE IN DEV
 ./gitready2p
 ```
-<!--## How to Use 🚀
+## How to Use 🚀
 ###### GUI:
 ```bash
 git clone https://github.com/TamirRothschild/gitready
 cd gitready/dev/preview # WHILE IN DEV
 ./gitready2g
 ```
--->
+![gitready_gui](https://github.com/TamirRothschild/gitready/assets/81330776/3d332ad0-82b8-4f24-9cdf-2822e57b6041)
+
 ## How To Build 🏗️
 ###### Terminal:
 ```bash
