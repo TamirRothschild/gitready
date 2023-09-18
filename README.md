@@ -7,7 +7,7 @@
 <!--Welcome to GitReady! Buckle up for a thrilling adventure in system installation like never before. GitReady is here to revolutionize the way you set up your system, making it fast, minimal, and secure.-->
 ## Features ✨
 - ⚡ Fast
-- 📦 Minimal (with a gui, for the ones with no English skill)
+- 📦 Minimal 
 - 🔒 Secure
 - 🎨 Customizable
 - 🐧 Optimized for Linux
