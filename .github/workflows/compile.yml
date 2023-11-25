@@ -20,6 +20,12 @@ jobs:
 
     - name: Compile C code
       run: gcc -o src/gitready_pre src/gitready.c
-   
+
+    - name: Upload artifact
+      uses: actions/upload-artifact@v2
+      with:
+        name: gitready_pre
+        path: src/gitready_pre
+
     - name: Run compiled code
       run: ./src/gitready_pre
