@@ -2,8 +2,11 @@ name: Compile C Code
 
 on:
   push:
-    branches:
-      - main
+    paths:
+      - 'src/*.c'
+  pull_request:
+    paths:
+      - 'src/*.c'
 
 jobs:
   build:
@@ -19,13 +22,16 @@ jobs:
         sudo apt-get -y install build-essential
 
     - name: Compile C code
-      run: gcc -o src/gitready_pre src/gitready.c
+      run: gcc -o src/gitready_pre src/*.c
+
+    - name: Copy compiled executable to src directory
+      run: cp src/gitready_pre src/gitready
 
     - name: Upload artifact
       uses: actions/upload-artifact@v2
       with:
-        name: gitready_pre
-        path: src/gitready_pre
+        name: gitready
+        path: src/gitready
 
     - name: Run compiled code
-      run: ./src/gitready_pre
+      run: ./src/gitready
