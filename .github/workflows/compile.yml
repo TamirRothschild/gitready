@@ -19,10 +19,7 @@ jobs:
         sudo apt-get -y install build-essential
 
     - name: Compile C code
-      run: gcc -o gitready_pre src/gitready.c
+      run: gcc -o src/gitready_pre src/gitready.c
    
     - name: Run compiled code
       run: ./gitready_pre
-
-    - name: save it!
-      run: mv gitready_pre /src
