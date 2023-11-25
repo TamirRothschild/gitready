@@ -19,15 +19,16 @@
 ###### Terminal:
 ```bash
 git clone https://github.com/TamirRothschild/gitready
-cd gitready/dev/preview # WHILE IN DEV
-./gitready2p
+cd gitready/src
+./gitready_pre
 ```
-## How to Use 🚀 [NOT RECOMMENDED]
+## How to Use 🚀 [NOT RECOMMENDED] 
+### (does not work....yet)
 ###### GUI:
 ```bash
 git clone https://github.com/TamirRothschild/gitready
-cd gitready/dev/preview # WHILE IN DEV
-./gitready2g
+cd gitready/src
+./gitready_gui
 ```
 ![gitready_gui](https://github.com/TamirRothschild/gitready/assets/81330776/3d332ad0-82b8-4f24-9cdf-2822e57b6041)
 
@@ -35,9 +36,9 @@ cd gitready/dev/preview # WHILE IN DEV
 ###### Terminal:
 ```bash
 git clone https://github.com/TamirRothschild/gitready
-cd gitready/dev/preview # WHILE IN DEV
-gcc -o gitready2m 2.c
-./gitready2m
+cd gitready/src
+gcc -o gitready_psb gitready.c
+./gitready_psb
 ```
 ## To Do List 📝
 
@@ -56,5 +57,5 @@ gcc -o gitready2m 2.c
 - [ ] add alpine linux support <a href="wiki.alpinelinux.org">alpinelinux wiki</a>
 - [ ] add more software support
 - [ ] Test shell
-- [ ] Test Debian
+- [x] Test Debian
 - [ ] Test GUI
