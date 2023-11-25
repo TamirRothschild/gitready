@@ -112,7 +112,7 @@ int main() {
             }
 
             if (desktop == 1) {
-                returnCode = system("sudo apt-get install gnome");
+                returnCode = system("sudo apt-get install gnome-core");
             } else if (desktop == 2) {
                 returnCode = system("sudo apt-get install kde-plasma-desktop");
             } else if (desktop == 3) {
