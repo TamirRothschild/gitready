@@ -1,0 +1,25 @@
+name: Compile C Code
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Set up build environment
+      run: |
+        sudo apt-get update
+        sudo apt-get -y install build-essential
+
+    - name: Compile C code
+      run: gcc -o gitready_pre src/gitready.c
+
+    - name: Run compiled code
+      run: ./gitready_pre
