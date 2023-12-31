@@ -43,7 +43,7 @@ gcc -o gitready_psb gitready.c
 ## To Do List 📝
 
 - [x] archlinux support
-- [X] debian support (NOT TESTED)
+- [X] debian support
 - [x] gnome 
 - [x] plasma 
 - [x] LXDE 
@@ -56,6 +56,6 @@ gcc -o gitready_psb gitready.c
 - [x] LXDM
 - [ ] add alpine linux support <a href="wiki.alpinelinux.org">alpinelinux wiki</a>
 - [ ] add more software support
-- [x] Test shell
+- [ ] Test shell
 - [x] Test Debian
 - [ ] Test GUI
