@@ -56,6 +56,6 @@ gcc -o gitready_psb gitready.c
 - [x] LXDM
 - [ ] add alpine linux support <a href="wiki.alpinelinux.org">alpinelinux wiki</a>
 - [ ] add more software support
-- [ ] Test shell
+- [x] Test shell
 - [x] Test Debian
 - [ ] Test GUI
