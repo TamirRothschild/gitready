@@ -59,3 +59,5 @@ gcc -o gitready_psb gitready.c
 - [ ] Test shell
 - [x] Test Debian
 - [ ] Test GUI
+
+Last Updated Jan 2024
