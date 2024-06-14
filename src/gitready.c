@@ -80,7 +80,7 @@ int main() {
             if (desktop == 1) {
                 returnCode = system("sudo pacman -S gnome");
             } else if (desktop == 2) {
-                returnCode = system("sudo pacman -S plasma");
+                returnCode = system("sudo pacman -S plasma-desktop");
             } else if (desktop == 3) {
                 returnCode = system("sudo pacman -S xfce4");
             } else if (desktop == 4) {
